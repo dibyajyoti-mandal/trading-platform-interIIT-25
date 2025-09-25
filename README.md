@@ -1,4 +1,4 @@
-# Prepathon
+# Trading Platform
 
 This repository contains the backend and frontend code for the Prepathon project.
 
