@@ -79,3 +79,19 @@ func loginHandler(c *fiber.Ctx) error {
 	}
 	return c.JSON(fiber.Map{"token": token})
 }
+
+func topupHandler(c *fiber.Ctx) error {
+	return c.SendString("topupHandler placeholder")
+}
+
+func getWalletHandler(c *fiber.Ctx) error {
+	return c.SendString("getWalletHandler placeholder")
+}
+
+func placeOrderHandler(c *fiber.Ctx) error {
+	return c.SendString("placeOrderHandler placeholder")
+}
+
+func getOrderHandler(c *fiber.Ctx) error {
+	return c.SendString("getOrderHandler placeholder")
+}
